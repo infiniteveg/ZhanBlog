@@ -8,9 +8,15 @@
     <link href="/2022/07/27/%E4%BF%A1%E6%81%AF%E8%AE%BA/"/>
     <url>/2022/07/27/%E4%BF%A1%E6%81%AF%E8%AE%BA/</url>
     
-    <content type="html"><![CDATA[<h1 id="基本概念"><a href="#基本概念" class="headerlink" title="基本概念"></a>基本概念</h1><ul><li>信源：信息的发源地</li><li><strong>S</strong>：信源字母表。S &#x3D; {s1, s2, …, sq}，随机变量Xn都是取值在S上的离散型随机变量。（信源S和信源字母表S有所不同）</li><li><strong>T</strong>：字母表{t1, t2, … , tr}，信道的基本符号集合。T中的一个字（word）𝒘是由T中字母组成的有限序列，字的长度即为序列中字母的个数。<ul><li>$T^n$：长度为n的字的集合</li><li>$\epsilon$：长度为0的空字</li><li>$T^*$：所有字（包括空字）的集合</li><li>$T^+$：所有非空字的集合</li></ul></li><li><strong>r-元编码</strong>：用一个&#x3D;&#x3D;含有r个字母的字母表&#x3D;&#x3D;T &#x3D; {t1, t2, …, tr}对{X1, X2, X3, …}的每一个事件进行编码（都用一个字母串来表示）</li><li><strong>C</strong>（码字集合，代码组）：**$C : S \rightarrow T^+$** ，C &#x3D; {w1, …, wq}，其中w &#x3D; $t_it_jt_k$…</li><li>信源序列编码：**$C^* : S^* \rightarrow T^*$**</li></ul><h2 id="唯一可译码"><a href="#唯一可译码" class="headerlink" title="唯一可译码"></a>唯一可译码</h2><p>定理：若C中的每个码字$w_i$具有相同的长度，那C是一个唯一可译码。</p><p>下面引入更一般的条件</p><p><img src="/../img/xxl/psc.jpg" alt="定义"></p><ul><li>一个码C为唯一可译码的&#x3D;&#x3D;充分必要条件&#x3D;&#x3D;是：</li></ul><p>$$<br>C \cap C &#x3D; \empty<br>$$</p><hr><h2 id="即时可译码"><a href="#即时可译码" class="headerlink" title="即时可译码"></a>即时可译码</h2><p><img src="/../img/xxl/mkll.jpg" alt="麦克米兰不等式的证明"></p><p>信源编码的主要目的：</p><ol><li>平均码长最小</li><li>易于实现</li></ol>]]></content>
+    <content type="html"><![CDATA[<h1 id="基本概念"><a href="#基本概念" class="headerlink" title="基本概念"></a>基本概念</h1><ul><li>信源：信息的发源地</li><li><strong>S</strong>：信源字母表。S &#x3D; {s1, s2, …, sq}，随机变量Xn都是取值在S上的离散型随机变量。（信源S和信源字母表S有所不同）</li><li><strong>T</strong>：字母表{t1, t2, … , tr}，信道的基本符号集合。T中的一个字（word）𝒘是由T中字母组成的有限序列，字的长度即为序列中字母的个数。<ul><li>$T^n$：长度为n的字的集合</li><li>$\epsilon$：长度为0的空字</li><li>$T^*$：所有字（包括空字）的集合</li><li>$T^+$：所有非空字的集合</li></ul></li><li><strong>r-元编码</strong>：用一个<mark>含有r个字母的字母表</mark>T &#x3D; {t1, t2, …, tr}对{X1, X2, X3, …}的每一个事件进行编码（都用一个字母串来表示）</li><li><strong>C</strong>（码字集合，代码组）：**$C : S \rightarrow T^+$** ，C &#x3D; {w1, …, wq}，其中w &#x3D; $t_it_jt_k$…</li><li>信源序列编码：**$C^* : S^* \rightarrow T^*$**</li></ul><h2 id="唯一可译码"><a href="#唯一可译码" class="headerlink" title="唯一可译码"></a>唯一可译码</h2><p>定理：若C中的每个码字$w_i$具有相同的长度，那C是一个唯一可译码。</p><p>下面引入更一般的条件</p><p><img src="http://m.qpic.cn/psc?/V50l4zvo3L8w4z4SZoxH1agehE202BEj/45NBuzDIW489QBoVep5mcYItaj2TvtUi1y3JFvAJfFSLYf8GhXO0ASyhlrPPxcGwOgJ6lnSrUpSPWjMwEquZQfHLBFVqeer1GoSZzHFQDpc!/b&bo=wwhNAgAAAAABF7Q!&rf=viewer_4" alt="定义"></p><ul><li>一个码C为唯一可译码的<mark>充分必要条件</mark>是：</li></ul><p>$$<br>C \cap C &#x3D; \empty<br>$$</p><hr><h2 id="即时可译码"><a href="#即时可译码" class="headerlink" title="即时可译码"></a>即时可译码</h2><p><img src="http://m.qpic.cn/psc?/V50oitkh3WgWXG2HlqmJ2Mvme41iwuou/45NBuzDIW489QBoVep5mcbJXmzf2Qfn.8.RY5fKuY3PclP96iHDx.8rBXsqKRq43rJtEr4krYxGrTtQvM*PRSJzgtnKC4DEqI7rfo6KP*X0!/b&bo=OAS.BQAAAAABF7c!&rf=viewer_4" alt="麦克米兰不等式的证明"></p><p>信源编码的主要目的：</p><ol><li>平均码长最小</li><li>易于实现</li></ol>]]></content>
     
     
+    
+    <tags>
+      
+      <tag>math</tag>
+      
+    </tags>
     
   </entry>
   

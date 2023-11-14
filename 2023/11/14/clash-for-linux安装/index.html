@@ -16,17 +16,17 @@
   <meta name="author" content="Shen Zhan">
   <meta name="keywords" content="">
   
-    <meta name="description" content="适用于只有终端（SSH）的机器，不需root权限  1. 下载、订阅链接 clash for linux 下载 Country.mmdb 下载 此目录下的文件都可以直接可以使用，也可以在此仓库下载其他版本：clash for linux(release) 本人现用机场: https:&#x2F;&#x2F;ovocloud.cc，推荐：https:&#x2F;&#x2F;www.paopao.dog，量大管饱。注册订阅教程可以参考里面具">
+    <meta name="description" content="适用于只有终端（SSH）的机器，不需root权限  1. 下载、订阅链接 clash for linux 下载 Country.mmdb 下载 此目录下的文件都可以直接可以使用，也可以在此仓库下载其他版本：clash for linux(release)。 本人现用机场: https:&#x2F;&#x2F;ovocloud.cc，也可：https:&#x2F;&#x2F;www.paopao.dog。注册订阅教程可以参考里面具体内容。">
 <meta property="og:type" content="article">
 <meta property="og:title" content="clash for linux安装">
 <meta property="og:url" content="https://github.com/infiniteveg/infiniteveg.github.io/2023/11/14/clash-for-linux%E5%AE%89%E8%A3%85/index.html">
 <meta property="og:site_name" content="Zhan&#39;s Blog">
-<meta property="og:description" content="适用于只有终端（SSH）的机器，不需root权限  1. 下载、订阅链接 clash for linux 下载 Country.mmdb 下载 此目录下的文件都可以直接可以使用，也可以在此仓库下载其他版本：clash for linux(release) 本人现用机场: https:&#x2F;&#x2F;ovocloud.cc，推荐：https:&#x2F;&#x2F;www.paopao.dog，量大管饱。注册订阅教程可以参考里面具">
+<meta property="og:description" content="适用于只有终端（SSH）的机器，不需root权限  1. 下载、订阅链接 clash for linux 下载 Country.mmdb 下载 此目录下的文件都可以直接可以使用，也可以在此仓库下载其他版本：clash for linux(release)。 本人现用机场: https:&#x2F;&#x2F;ovocloud.cc，也可：https:&#x2F;&#x2F;www.paopao.dog。注册订阅教程可以参考里面具体内容。">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://github.com/clash/clash_run.jpg">
 <meta property="og:image" content="https://github.com/clash/google.jpg">
 <meta property="article:published_time" content="2023-11-14T14:59:43.000Z">
-<meta property="article:modified_time" content="2023-11-14T15:19:32.745Z">
+<meta property="article:modified_time" content="2023-11-14T15:29:04.418Z">
 <meta property="article:author" content="Shen Zhan">
 <meta property="article:tag" content="linux">
 <meta name="twitter:card" content="summary_large_image">
@@ -282,17 +282,17 @@
 <h2 id="1-下载-订阅链接"><a class="markdownIt-Anchor" href="#1-下载-订阅链接"></a> 1. 下载、订阅链接</h2>
 <p>clash for linux <a href="https://github.com/infiniteveg/infiniteveg.github.io/raw/main/clash/clash-linux-amd64">下载</a></p>
 <p>Country.mmdb <a href="https://github.com/infiniteveg/infiniteveg.github.io/raw/main/clash/Country.mmdb">下载</a></p>
-<p>此目录下的文件都可以直接可以使用，也可以在此仓库下载其他版本：<a href="https://github.com/zhongfly/Clash-premium-backup/releases">clash for linux(release)</a></p>
-<p>本人现用机场: <a target="_blank" rel="noopener" href="https://ovocloud.cc">https://ovocloud.cc</a>，推荐：<a target="_blank" rel="noopener" href="https://www.paopao.dog">https://www.paopao.dog</a>，量大管饱。注册订阅教程可以参考里面具体内容</p>
+<p>此目录下的文件都可以直接可以使用，也可以在此仓库下载其他版本：<a href="https://github.com/zhongfly/Clash-premium-backup/releases">clash for linux(release)</a>。</p>
+<p>本人现用机场: <a target="_blank" rel="noopener" href="https://ovocloud.cc">https://ovocloud.cc</a>，也可：<a target="_blank" rel="noopener" href="https://www.paopao.dog">https://www.paopao.dog</a>。注册订阅教程可以参考里面具体内容。</p>
 <p>country.mmdb文件下载： <a target="_blank" rel="noopener" href="https://cdn.jsdelivr.net/gh/Dreamacro/maxmind-geoip@release/Country.mmdb">https://cdn.jsdelivr.net/gh/Dreamacro/maxmind-geoip@release/Country.mmdb</a> ，放到<code>~/.config/clash/</code> 中。</p>
 <h2 id="2-安装"><a class="markdownIt-Anchor" href="#2-安装"></a> 2. 安装</h2>
-<p>解压后增加执行权限</p>
+<p>解压后增加执行权限。</p>
 <figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs sh"><span class="hljs-built_in">chmod</span> +x clash-linux-amd64<br></code></pre></td></tr></table></figure>
 <p>下载订阅文件<code>config.yaml</code>到任意位置，可以修改其中相关内容。文件内容参考如下：</p>
 <figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><code class="hljs yaml"><span class="hljs-attr">port:</span> <span class="hljs-number">7890</span><br><span class="hljs-attr">socks-port:</span> <span class="hljs-number">7891</span><br><span class="hljs-attr">allow-lan:</span> <span class="hljs-literal">false</span><br><span class="hljs-attr">mode:</span> <span class="hljs-string">Rule</span><br><span class="hljs-attr">log-level:</span> <span class="hljs-string">info</span><br><span class="hljs-attr">external-controller:</span> <span class="hljs-string">:9090</span><br><span class="hljs-comment"># secret: &quot;passwd&quot;</span><br><span class="hljs-attr">dns:</span><br>    <span class="hljs-string">......</span><br><span class="hljs-attr">proxies:</span><br>    <span class="hljs-string">......</span><br></code></pre></td></tr></table></figure>
 <p>其中<code>secret</code>为管理端的密码，可以自行指定或不指定</p>
 <h2 id="3-后台运行clash"><a class="markdownIt-Anchor" href="#3-后台运行clash"></a> 3. 后台运行clash</h2>
-<p>可以简单在vscode里多开一个终端，或者使用screen命令，该命令也有助于防止因服务器断联导致的程序中断</p>
+<p>可以简单在vscode里多开一个终端，或者使用screen命令，该命令也有助于防止因服务器断联导致的程序中断。</p>
 <h3 id="screen用法简介"><a class="markdownIt-Anchor" href="#screen用法简介"></a> screen用法简介</h3>
 <blockquote>
 <p><strong>新建一个screen会话</strong><br />
@@ -309,7 +309,7 @@ screen -X -S &lt;序列号&gt; quit</p>
 </blockquote>
 <p>因此这里用法如下：</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs bash">screen -S clash<br>./clash -f config.yaml<br></code></pre></td></tr></table></figure>
-<p>这里的<code>clash</code>和<code>config.yaml</code>目录自己指定</p>
+<p>这里的<code>clash</code>和<code>config.yaml</code>目录自己指定。</p>
 <p>如一切正常会看到以下回显，按住 Ctrl 依次再按一下 A D 将 clash core 切换到后台。</p>
 <center>
     <img style="border-radius: 0.3125em;
@@ -318,8 +318,8 @@ screen -X -S &lt;序列号&gt; quit</p>
     src="/clash/clash_run.jpg" srcset="/infiniteveg/infiniteveg.github.io/img/loading.gif" lazyload>
 </center>
 <h2 id="4-设置代理"><a class="markdownIt-Anchor" href="#4-设置代理"></a> 4. 设置代理</h2>
-<p>然后我们需要把http和https的流量都发送到指定端口，在home目录下的.bashrc中添加以下并保存</p>
-<p>这一步可以自定义一个函数，开启clash只需要输入proxy即可，按Ctrl+C关闭clash并清空ALL_PROXY的值</p>
+<p>然后我们需要把http和https的流量都发送到指定端口，在home目录下的.bashrc中添加以下并保存。</p>
+<p>这一步可以自定义一个函数，开启clash只需要输入proxy即可，按Ctrl+C关闭clash并清空ALL_PROXY的值。</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><code class="hljs bash"><span class="hljs-built_in">export</span> ALL_PROXY=<span class="hljs-string">&quot;http://127.0.0.1:7890&quot;</span><br><br><span class="hljs-comment"># proxy</span><br><span class="hljs-function"><span class="hljs-title">proxy</span></span> () &#123;<br>    <span class="hljs-comment"># export ALL_PROXY=&quot;http://127.0.0.1:7890&quot;</span><br>    <span class="hljs-comment"># echo &quot;HTTP Proxy on&quot;</span><br>    /home/sz/clash/clash-linux-amd64 -f /home/sz/.config/clash/config.yaml<br>    <span class="hljs-built_in">unset</span> ALL_PROXY<br>    <span class="hljs-built_in">echo</span> <span class="hljs-string">&quot;HTTP Proxy off&quot;</span><br>&#125;<br></code></pre></td></tr></table></figure>
 <p>并在终端里</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs bash"><span class="hljs-built_in">source</span> ~/.bashrc<br>proxy<br></code></pre></td></tr></table></figure>

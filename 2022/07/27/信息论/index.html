@@ -7,8 +7,8 @@
 
 <head>
   <meta charset="UTF-8">
-  <link rel="apple-touch-icon" sizes="76x76" href="/infiniteveg/infiniteveg.github.io/img/favicon.jpg">
-  <link rel="icon" href="/infiniteveg/infiniteveg.github.io/img/favicon.jpg">
+  <link rel="apple-touch-icon" sizes="76x76" href="/infiniteveg/infiniteveg.github.io/tree/main/img/favicon.jpg">
+  <link rel="icon" href="/infiniteveg/infiniteveg.github.io/tree/main/img/favicon.jpg">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   
@@ -19,7 +19,7 @@
     <meta name="description" content="基本概念  信源：信息的发源地 S：信源字母表。S &#x3D; {s1, s2, …, sq}，随机变量Xn都是取值在S上的离散型随机变量。（信源S和信源字母表S有所不同） T：字母表{t1, t2, … , tr}，信道的基本符号集合。T中的一个字（word）𝒘是由T中字母组成的有限序列，字的长度即为序列中字母的个数。  TnT^nTn：长度为n的字的集合 ϵ\epsilonϵ：长度为0的空字 T∗">
 <meta property="og:type" content="article">
 <meta property="og:title" content="信息论">
-<meta property="og:url" content="https://github.com/infiniteveg/infiniteveg.github.io/2022/07/27/%E4%BF%A1%E6%81%AF%E8%AE%BA/index.html">
+<meta property="og:url" content="https://github.com/infiniteveg/infiniteveg.github.io/tree/main/2022/07/27/%E4%BF%A1%E6%81%AF%E8%AE%BA/index.html">
 <meta property="og:site_name" content="Zhan&#39;s Blog">
 <meta property="og:description" content="基本概念  信源：信息的发源地 S：信源字母表。S &#x3D; {s1, s2, …, sq}，随机变量Xn都是取值在S上的离散型随机变量。（信源S和信源字母表S有所不同） T：字母表{t1, t2, … , tr}，信道的基本符号集合。T中的一个字（word）𝒘是由T中字母组成的有限序列，字的长度即为序列中字母的个数。  TnT^nTn：长度为n的字的集合 ϵ\epsilonϵ：长度为0的空字 T∗">
 <meta property="og:locale" content="zh_CN">
@@ -60,12 +60,12 @@
 <link rel="stylesheet" href="//at.alicdn.com/t/font_1736178_lbnruvf0jn.css">
 
 
-<link  rel="stylesheet" href="/infiniteveg/infiniteveg.github.io/css/main.css" />
+<link  rel="stylesheet" href="/infiniteveg/infiniteveg.github.io/tree/main/css/main.css" />
 
 
-  <link id="highlight-css" rel="stylesheet" href="/infiniteveg/infiniteveg.github.io/css/highlight.css" />
+  <link id="highlight-css" rel="stylesheet" href="/infiniteveg/infiniteveg.github.io/tree/main/css/highlight.css" />
   
-    <link id="highlight-css-dark" rel="stylesheet" href="/infiniteveg/infiniteveg.github.io/css/highlight-dark.css" />
+    <link id="highlight-css-dark" rel="stylesheet" href="/infiniteveg/infiniteveg.github.io/tree/main/css/highlight-dark.css" />
   
 
 
@@ -74,15 +74,15 @@
   <script id="fluid-configs">
     var Fluid = window.Fluid || {};
     Fluid.ctx = Object.assign({}, Fluid.ctx)
-    var CONFIG = {"hostname":"github.com","root":"/infiniteveg/infiniteveg.github.io/","version":"1.9.4","typing":{"enable":false,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"follow_dnt":true,"baidu":null,"google":null,"gtag":null,"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false}},"search_path":"/infiniteveg/infiniteveg.github.io/local-search.xml"};
+    var CONFIG = {"hostname":"github.com","root":"/infiniteveg/infiniteveg.github.io/tree/main/","version":"1.9.4","typing":{"enable":false,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"follow_dnt":true,"baidu":null,"google":null,"gtag":null,"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false}},"search_path":"/infiniteveg/infiniteveg.github.io/tree/main/local-search.xml"};
 
     if (CONFIG.web_analytics.follow_dnt) {
       var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
       Fluid.ctx.dnt = dntVal && (dntVal.startsWith('1') || dntVal.startsWith('yes') || dntVal.startsWith('on'));
     }
   </script>
-  <script  src="/infiniteveg/infiniteveg.github.io/js/utils.js" ></script>
-  <script  src="/infiniteveg/infiniteveg.github.io/js/color-schema.js" ></script>
+  <script  src="/infiniteveg/infiniteveg.github.io/tree/main/js/utils.js" ></script>
+  <script  src="/infiniteveg/infiniteveg.github.io/tree/main/js/color-schema.js" ></script>
   
 
 
@@ -99,7 +99,7 @@
 <div class="header-inner" style="height: 70vh;">
   <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
   <div class="container">
-    <a class="navbar-brand" href="/infiniteveg/infiniteveg.github.io/">
+    <a class="navbar-brand" href="/infiniteveg/infiniteveg.github.io/tree/main/">
       <strong>Zhan&#39;s Blog</strong>
     </a>
 
@@ -118,7 +118,7 @@
           
           
             <li class="nav-item">
-              <a class="nav-link" href="/infiniteveg/infiniteveg.github.io/">
+              <a class="nav-link" href="/infiniteveg/infiniteveg.github.io/tree/main/">
                 <i class="iconfont icon-home-fill"></i>
                 <span>首页</span>
               </a>
@@ -130,7 +130,7 @@
           
           
             <li class="nav-item">
-              <a class="nav-link" href="/infiniteveg/infiniteveg.github.io/archives/">
+              <a class="nav-link" href="/infiniteveg/infiniteveg.github.io/tree/main/archives/">
                 <i class="iconfont icon-archive-fill"></i>
                 <span>归档</span>
               </a>
@@ -142,7 +142,7 @@
           
           
             <li class="nav-item">
-              <a class="nav-link" href="/infiniteveg/infiniteveg.github.io/categories/">
+              <a class="nav-link" href="/infiniteveg/infiniteveg.github.io/tree/main/categories/">
                 <i class="iconfont icon-category-fill"></i>
                 <span>分类</span>
               </a>
@@ -154,7 +154,7 @@
           
           
             <li class="nav-item">
-              <a class="nav-link" href="/infiniteveg/infiniteveg.github.io/tags/">
+              <a class="nav-link" href="/infiniteveg/infiniteveg.github.io/tree/main/tags/">
                 <i class="iconfont icon-tags-fill"></i>
                 <span>标签</span>
               </a>
@@ -166,7 +166,7 @@
           
           
             <li class="nav-item">
-              <a class="nav-link" href="/infiniteveg/infiniteveg.github.io/about/">
+              <a class="nav-link" href="/infiniteveg/infiniteveg.github.io/tree/main/about/">
                 <i class="iconfont icon-user-fill"></i>
                 <span>关于</span>
               </a>
@@ -196,7 +196,7 @@
   
 
 <div id="banner" class="banner" parallax=true
-     style="background: url('/infiniteveg/infiniteveg.github.io/img/index.jpg') no-repeat center center; background-size: cover;">
+     style="background: url('/infiniteveg/infiniteveg.github.io/tree/main/img/index.jpg') no-repeat center center; background-size: cover;">
   <div class="full-bg-img">
     <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
       <div class="banner-text text-center fade-in-up">
@@ -298,7 +298,7 @@
 <h2 id="唯一可译码"><a class="markdownIt-Anchor" href="#唯一可译码"></a> 唯一可译码</h2>
 <p>定理：若C中的每个码字<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>w</mi><mi>i</mi></msub></mrow><annotation encoding="application/x-tex">w_i</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.58056em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.02691em;">w</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31166399999999994em;"><span style="top:-2.5500000000000003em;margin-left:-0.02691em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">i</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>具有相同的长度，那C是一个唯一可译码。</p>
 <p>下面引入更一般的条件</p>
-<p><img src="/img/xxl/psc.jpg" srcset="/infiniteveg/infiniteveg.github.io/img/loading.gif" lazyload alt="定义" /></p>
+<p><img src="/img/xxl/psc.jpg" srcset="/infiniteveg/infiniteveg.github.io/tree/main/img/loading.gif" lazyload alt="定义" /></p>
 <ul>
 <li>一个码C为唯一可译码的<mark>充分必要条件</mark>是：</li>
 </ul>
@@ -306,7 +306,7 @@
 </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.07153em;">C</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">∩</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.07153em;">C</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.80556em;vertical-align:-0.05556em;"></span><span class="mord">∅</span></span></span></span></span></p>
 <hr />
 <h2 id="即时可译码"><a class="markdownIt-Anchor" href="#即时可译码"></a> 即时可译码</h2>
-<p><img src="/img/xxl/mkll.jpg" srcset="/infiniteveg/infiniteveg.github.io/img/loading.gif" lazyload alt="麦克米兰不等式的证明" /></p>
+<p><img src="/img/xxl/mkll.jpg" srcset="/infiniteveg/infiniteveg.github.io/tree/main/img/loading.gif" lazyload alt="麦克米兰不等式的证明" /></p>
 <p>信源编码的主要目的：</p>
 <ol>
 <li>平均码长最小</li>
@@ -330,12 +330,12 @@
     
       <span class="category-chain">
         
-  <a href="/infiniteveg/infiniteveg.github.io/categories/%E8%AF%BE%E5%A0%82%E7%AC%94%E8%AE%B0/" class="category-chain-item">课堂笔记</a>
+  <a href="/infiniteveg/infiniteveg.github.io/tree/main/categories/%E8%AF%BE%E5%A0%82%E7%AC%94%E8%AE%B0/" class="category-chain-item">课堂笔记</a>
   
   
     <span>></span>
     
-  <a href="/infiniteveg/infiniteveg.github.io/categories/%E8%AF%BE%E5%A0%82%E7%AC%94%E8%AE%B0/%E4%BF%A1%E6%81%AF%E8%AE%BA/" class="category-chain-item">信息论</a>
+  <a href="/infiniteveg/infiniteveg.github.io/tree/main/categories/%E8%AF%BE%E5%A0%82%E7%AC%94%E8%AE%B0/%E4%BF%A1%E6%81%AF%E8%AE%BA/" class="category-chain-item">信息论</a>
   
   
 
@@ -352,7 +352,7 @@
     <div class="post-meta">
       <i class="iconfont icon-tags"></i>
       
-        <a href="/infiniteveg/infiniteveg.github.io/tags/math/">#math</a>
+        <a href="/infiniteveg/infiniteveg.github.io/tree/main/tags/math/">#math</a>
       
     </div>
   
@@ -365,7 +365,7 @@
   <div class="license-box my-3">
     <div class="license-title">
       <div>信息论</div>
-      <div>https://github.com/infiniteveg/infiniteveg.github.io/2022/07/27/信息论/</div>
+      <div>https://github.com/infiniteveg/infiniteveg.github.io/tree/main/2022/07/27/信息论/</div>
     </div>
     <div class="license-meta">
       
@@ -409,7 +409,7 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/infiniteveg/infiniteveg.github.io/2023/11/14/clash-for-linux%E5%AE%89%E8%A3%85/" title="clash for linux安装">
+                      <a href="/infiniteveg/infiniteveg.github.io/tree/main/2023/11/14/clash-for-linux%E5%AE%89%E8%A3%85/" title="clash for linux安装">
                         <i class="iconfont icon-arrowleft"></i>
                         <span class="hidden-mobile">clash for linux安装</span>
                         <span class="visible-mobile">上一篇</span>
@@ -419,7 +419,7 @@
                   <article class="post-next col-6">
                     
                     
-                      <a href="/infiniteveg/infiniteveg.github.io/2022/07/27/hello-world/" title="Hello World">
+                      <a href="/infiniteveg/infiniteveg.github.io/tree/main/2022/07/27/hello-world/" title="Hello World">
                         <span class="hidden-mobile">Hello World</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
@@ -567,15 +567,15 @@
 
 <script  src="https://lib.baomitu.com/jquery/3.6.0/jquery.min.js" ></script>
 <script  src="https://lib.baomitu.com/twitter-bootstrap/4.6.1/js/bootstrap.min.js" ></script>
-<script  src="/infiniteveg/infiniteveg.github.io/js/events.js" ></script>
-<script  src="/infiniteveg/infiniteveg.github.io/js/plugins.js" ></script>
+<script  src="/infiniteveg/infiniteveg.github.io/tree/main/js/events.js" ></script>
+<script  src="/infiniteveg/infiniteveg.github.io/tree/main/js/plugins.js" ></script>
 
 
 
 
 
   
-    <script  src="/infiniteveg/infiniteveg.github.io/js/img-lazyload.js" ></script>
+    <script  src="/infiniteveg/infiniteveg.github.io/tree/main/js/img-lazyload.js" ></script>
   
 
 
@@ -674,7 +674,7 @@
 
   <script>Fluid.plugins.imageCaption();</script>
 
-  <script  src="/infiniteveg/infiniteveg.github.io/js/local-search.js" ></script>
+  <script  src="/infiniteveg/infiniteveg.github.io/tree/main/js/local-search.js" ></script>
 
 
 
@@ -682,7 +682,7 @@
 
 <!-- 主题的启动项，将它保持在最底部 -->
 <!-- the boot of the theme, keep it at the bottom -->
-<script  src="/infiniteveg/infiniteveg.github.io/js/boot.js" ></script>
+<script  src="/infiniteveg/infiniteveg.github.io/tree/main/js/boot.js" ></script>
 
 
   
